@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/c++code/httpServer/httpd.cpp
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+zconf.h
+-
+sys/stat.h
+-
+ctype.h
+-
+wait.h
+-
+
